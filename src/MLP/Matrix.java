@@ -329,4 +329,17 @@ public class Matrix
 		System.out.println("\n");
 	}
 	
+	public void displayAssignment2Matrix()
+	{
+		//String firstNumberAsString = String.format ("%.0f", firstNumber);
+		char[] vowels = {'a','e','i','o','u'};
+		for (int i = 0; i < matrix.length; i++) {
+		    for (int j = 0; j < matrix[i].length; j++) {
+		        System.out.print(vowels[i] + " " + matrix[i][j] + " ");
+		    }
+		    System.out.println("");
+		}
+		System.out.println("\n");
+	}
+	
 }

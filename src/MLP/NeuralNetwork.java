@@ -107,6 +107,8 @@ public class NeuralNetwork
 		return(outputs);
 	}
 	
+
+	
 	public void train(float[] iInputs, float[] iTargets)
 	{	
 		//-------------------copied from feedForward------------------------------
