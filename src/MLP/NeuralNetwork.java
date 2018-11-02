@@ -158,7 +158,7 @@ public class NeuralNetwork
 		
 		//-------------------copied from feedForward------------------------------
 
-		//Convert inputs to a Matrix
+		//Convert targets to a Matrix
 		Matrix targets = Matrix.fromArray(iTargets);
 		
 		
